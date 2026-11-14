@@ -1,0 +1,317 @@
+/* ==========================================================================
+ * Design System Typography Text Styles (Generated from Figma Foundation)
+ * Includes all 24 Figma Text Styles + clean non-strikethrough Body/Small & Body/XSmall
+ * Registered as Tailwind CSS v4 @utility rules so responsive/state variants work.
+ * ========================================================================== */
+
+/* Display/Large — Yekan Bakh FaNum 700 · 56px/72px */
+@utility text-display-lg {
+  font-family: var(--font-face-font-family-display);
+  font-weight: var(--font-weight-bold);
+  font-size: var(--font-size-fontsize-display-3xl);
+  line-height: var(--line-height-lineheight-display-3xl);
+  letter-spacing: 0;
+  font-style: normal;
+  font-feature-settings: "kern" 0, "calt" 0;
+}
+
+/* Display/Medium — Yekan Bakh FaNum 700 · 40px/48px */
+@utility text-display-md {
+  font-family: var(--font-face-font-family-display);
+  font-weight: var(--font-weight-bold);
+  font-size: var(--font-size-fontsize-display-xl);
+  line-height: var(--line-height-lineheight-display-xl);
+  letter-spacing: 0;
+  font-style: normal;
+  font-feature-settings: "kern" 0, "calt" 0;
+}
+
+/* Display/Small — Yekan Bakh FaNum 700 · 36px/44px */
+@utility text-display-sm {
+  font-family: var(--font-face-font-family-display);
+  font-weight: var(--font-weight-bold);
+  font-size: var(--font-size-fontsize-display-lg);
+  line-height: var(--line-height-lineheight-display-lg);
+  letter-spacing: 0;
+  font-style: normal;
+  font-feature-settings: "kern" 0, "calt" 0;
+}
+
+/* Headline/Large — Yekan Bakh FaNum 600 · 32px/40px */
+@utility text-headline-lg {
+  font-family: var(--font-face-font-family-display);
+  font-weight: var(--font-weight-semi-bold);
+  font-size: var(--font-size-fontsize-display-md);
+  line-height: var(--line-height-lineheight-display-md);
+  letter-spacing: 0;
+  font-style: normal;
+  font-feature-settings: "kern" 0, "calt" 0;
+}
+
+/* Headline/Medium — Yekan Bakh FaNum 600 · 24px/32px */
+@utility text-headline-md {
+  font-family: var(--font-face-font-family-display);
+  font-weight: var(--font-weight-semi-bold);
+  font-size: var(--font-size-fontsize-display-sm);
+  line-height: var(--line-height-lineheight-display-sm);
+  letter-spacing: 0;
+  font-style: normal;
+  font-feature-settings: "kern" 0, "calt" 0;
+}
+
+/* Headline/Small — Yekan Bakh FaNum 600 · 20px/30px */
+@utility text-headline-sm {
+  font-family: var(--font-face-font-family-display);
+  font-weight: var(--font-weight-semi-bold);
+  font-size: var(--font-size-fontsize-text-xl);
+  line-height: var(--line-height-lineheight-text-xl);
+  letter-spacing: 0;
+  font-style: normal;
+  font-feature-settings: "kern" 0, "calt" 0;
+}
+
+/* Title/Large — Yekan Bakh FaNum 400 · 20px/30px */
+@utility text-title-lg {
+  font-family: var(--font-face-font-family-display);
+  font-weight: var(--font-weight-regular);
+  font-size: var(--font-size-fontsize-text-xl);
+  line-height: var(--line-height-lineheight-text-xl);
+  letter-spacing: 0;
+  font-style: normal;
+}
+
+/* Title/Medium — Yekan Bakh FaNum 400 · 18px/28px */
+@utility text-title-md {
+  font-family: var(--font-face-font-family-display);
+  font-weight: var(--font-weight-regular);
+  font-size: var(--font-size-fontsize-text-lg);
+  line-height: var(--line-height-lineheight-text-lg);
+  letter-spacing: 0;
+  font-style: normal;
+  font-feature-settings: "calt" 0, "kern" 0;
+}
+
+/* Title/Small — Yekan Bakh FaNum 400 · 16px/24px */
+@utility text-title-sm {
+  font-family: var(--font-face-font-family-display);
+  font-weight: var(--font-weight-regular);
+  font-size: var(--font-size-fontsize-text-md);
+  line-height: var(--line-height-lineheight-text-md);
+  letter-spacing: 0;
+  font-style: normal;
+  font-feature-settings: "calt" 0, "kern" 0, "liga" 0;
+}
+
+/* Title/XSmall — Yekan Bakh FaNum 600 · 14px/20px */
+@utility text-title-xs {
+  font-family: var(--font-face-font-family-display);
+  font-weight: var(--font-weight-semi-bold);
+  font-size: var(--font-size-fontsize-text-sm);
+  line-height: var(--line-height-lineheight-text-sm);
+  letter-spacing: 0;
+  font-style: normal;
+  font-feature-settings: "calt" 0, "kern" 0, "liga" 0;
+}
+
+/* Body/Large — IRANSansFaNum 400 · 16px/24px */
+@utility text-body-lg {
+  font-family: var(--font-face-font-family-body);
+  font-weight: var(--font-weight-regular);
+  font-size: var(--font-size-fontsize-text-md);
+  line-height: var(--line-height-lineheight-text-md);
+  letter-spacing: 0;
+  font-style: normal;
+  font-feature-settings: "salt" 1, "kern" 0, "calt" 0;
+}
+
+/* Body/Medium — IRANSansFaNum 400 · 14px/20px */
+@utility text-body-md {
+  font-family: var(--font-face-font-family-body);
+  font-weight: var(--font-weight-regular);
+  font-size: var(--font-size-fontsize-text-sm);
+  line-height: var(--line-height-lineheight-text-sm);
+  letter-spacing: 0;
+  font-style: normal;
+  font-feature-settings: "salt" 1, "kern" 0, "calt" 0;
+}
+
+/* Body/Small — IRANSansFaNum 400 · 12px/18px */
+@utility text-body-sm {
+  font-family: var(--font-face-font-family-body);
+  font-weight: var(--font-weight-regular);
+  font-size: var(--font-size-fontsize-text-xs);
+  line-height: var(--line-height-lineheight-text-xs);
+  letter-spacing: 0;
+  font-style: normal;
+  font-feature-settings: "salt" 1, "kern" 0, "calt" 0;
+}
+
+/* Body/XSmall — IRANSansFaNum 400 · 10px/14px */
+@utility text-body-xs {
+  font-family: var(--font-face-font-family-body);
+  font-weight: var(--font-weight-regular);
+  font-size: var(--font-size-fontsize-text-2xs);
+  line-height: var(--line-height-lineheight-text-2xs);
+  letter-spacing: 0;
+  font-style: normal;
+  font-feature-settings: "salt" 1, "kern" 0, "calt" 0;
+}
+
+/* Body/Large Striketrought — IRANSansFaNum 400 · 16px/24px */
+@utility text-body-lg-strikethrough {
+  font-family: var(--font-face-font-family-body);
+  font-weight: var(--font-weight-regular);
+  font-size: var(--font-size-fontsize-text-md);
+  line-height: var(--line-height-lineheight-text-md);
+  letter-spacing: 0;
+  font-style: normal;
+  text-decoration-line: line-through;
+  text-decoration-style: solid;
+  text-decoration-skip-ink: none;
+  font-feature-settings: "salt" 1, "kern" 0, "calt" 0;
+}
+
+/* Body/Medium Striketrought — IRANSansFaNum 400 · 14px/20px */
+@utility text-body-md-strikethrough {
+  font-family: var(--font-face-font-family-body);
+  font-weight: var(--font-weight-regular);
+  font-size: var(--font-size-fontsize-text-sm);
+  line-height: var(--line-height-lineheight-text-sm);
+  letter-spacing: 0;
+  font-style: normal;
+  text-decoration-line: line-through;
+  text-decoration-style: solid;
+  text-decoration-skip-ink: none;
+  font-feature-settings: "salt" 1, "kern" 0, "calt" 0;
+}
+
+/* Body/Small Striketrought — IRANSansFaNum 400 · 12px/18px */
+@utility text-body-sm-strikethrough {
+  font-family: var(--font-face-font-family-body);
+  font-weight: var(--font-weight-regular);
+  font-size: var(--font-size-fontsize-text-xs);
+  line-height: var(--line-height-lineheight-text-xs);
+  letter-spacing: 0;
+  font-style: normal;
+  text-decoration-line: line-through;
+  text-decoration-style: solid;
+  text-decoration-skip-ink: none;
+  font-feature-settings: "salt" 1, "kern" 0, "calt" 0;
+}
+
+/* Body/XSmall Striketrought — IRANSansFaNum 400 · 10px/14px */
+@utility text-body-xs-strikethrough {
+  font-family: var(--font-face-font-family-body);
+  font-weight: var(--font-weight-regular);
+  font-size: var(--font-size-fontsize-text-2xs);
+  line-height: var(--line-height-lineheight-text-2xs);
+  letter-spacing: 0;
+  font-style: normal;
+  text-decoration-line: line-through;
+  text-decoration-style: solid;
+  text-decoration-skip-ink: none;
+  font-feature-settings: "salt" 1, "kern" 0, "calt" 0;
+}
+
+/* Label/Large — IRANSansFaNum 500 · 16px/20px */
+@utility text-label-lg {
+  font-family: var(--font-face-font-family-body);
+  font-weight: var(--font-weight-medium);
+  font-size: var(--font-size-fontsize-text-md);
+  line-height: var(--line-height-lineheight-text-sm);
+  letter-spacing: 0;
+  font-style: normal;
+  font-feature-settings: "salt" 1, "kern" 0, "calt" 0;
+}
+
+/* Label/Medium — IRANSansFaNum 500 · 14px/20px */
+@utility text-label-md {
+  font-family: var(--font-face-font-family-body);
+  font-weight: var(--font-weight-medium);
+  font-size: var(--font-size-fontsize-text-sm);
+  line-height: var(--line-height-lineheight-text-sm);
+  letter-spacing: 0;
+  font-style: normal;
+  font-feature-settings: "salt" 1, "kern" 0, "calt" 0;
+}
+
+/* Label/Small — IRANSansFaNum 500 · 12px/18px */
+@utility text-label-sm {
+  font-family: var(--font-face-font-family-body);
+  font-weight: var(--font-weight-medium);
+  font-size: var(--font-size-fontsize-text-xs);
+  line-height: var(--line-height-lineheight-text-xs);
+  letter-spacing: 0;
+  font-style: normal;
+  font-feature-settings: "salt" 1, "kern" 0, "calt" 0;
+}
+
+/* Label/X Small — IRANSansFaNum 500 · 10px/14px */
+@utility text-label-xs {
+  font-family: var(--font-face-font-family-body);
+  font-weight: var(--font-weight-medium);
+  font-size: var(--font-size-fontsize-text-2xs);
+  line-height: var(--line-height-lineheight-text-2xs);
+  letter-spacing: 0;
+  font-style: normal;
+  font-feature-settings: "salt" 1, "kern" 0, "calt" 0;
+}
+
+/* Label/Large Underline — IRANSansFaNum 700 · 16px/24px */
+@utility text-label-lg-underline {
+  font-family: var(--font-face-font-family-body);
+  font-weight: var(--font-weight-demi-bold);
+  font-size: var(--font-size-fontsize-text-md);
+  line-height: var(--line-height-lineheight-text-md);
+  letter-spacing: 0;
+  font-style: normal;
+  text-decoration-line: underline;
+  text-decoration-style: solid;
+  text-decoration-skip-ink: none;
+  text-underline-position: from-font;
+  font-feature-settings: "salt" 1, "kern" 0, "calt" 0;
+}
+
+/* Label/Medium Underline — IRANSansFaNum 700 · 14px/18px */
+@utility text-label-md-underline {
+  font-family: var(--font-face-font-family-body);
+  font-weight: var(--font-weight-demi-bold);
+  font-size: var(--font-size-fontsize-text-sm);
+  line-height: var(--line-height-lineheight-text-xs);
+  letter-spacing: 0;
+  font-style: normal;
+  text-decoration-line: underline;
+  text-decoration-style: solid;
+  text-decoration-skip-ink: none;
+  text-underline-position: from-font;
+  font-feature-settings: "salt" 1, "kern" 0, "calt" 0;
+}
+
+/* Label/Small Underline — IRANSansFaNum 700 · 12px/18px */
+@utility text-label-sm-underline {
+  font-family: var(--font-face-font-family-body);
+  font-weight: var(--font-weight-demi-bold);
+  font-size: var(--font-size-fontsize-text-xs);
+  line-height: var(--line-height-lineheight-text-xs);
+  letter-spacing: 0;
+  font-style: normal;
+  text-decoration-line: underline;
+  text-decoration-style: solid;
+  text-decoration-skip-ink: none;
+  text-underline-position: from-font;
+  font-feature-settings: "salt" 1, "kern" 0, "calt" 0;
+}
+
+/* Label/Large Striketrought — IRANSansFaNum 700 · 16px/24px */
+@utility text-label-lg-strikethrough {
+  font-family: var(--font-face-font-family-body);
+  font-weight: var(--font-weight-demi-bold);
+  font-size: var(--font-size-fontsize-text-md);
+  line-height: var(--line-height-lineheight-text-md);
+  letter-spacing: 0;
+  font-style: normal;
+  text-decoration-line: line-through;
+  text-decoration-style: solid;
+  text-decoration-skip-ink: none;
+  font-feature-settings: "salt" 1, "kern" 0, "calt" 0;
+}
